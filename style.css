@@ -1,0 +1,511 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+}
+
+.header {
+    background: url("./img/main _photo.png");
+    padding: 48px 76px;
+    height: 100vh;
+    object-fit: cover;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+header {
+    text-align: center;
+    font-size: 18px;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+header .logo {
+    float: left;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    width: 46px;
+    height: 41px;
+    margin-right: 11px;
+}
+
+.logo-text {
+    font-weight: 900;
+    letter-spacing: 3.6px;
+}
+
+
+nav {
+    padding-top: 10px;
+    margin-right: 120px;
+}
+
+nav a {
+    margin-right: 65px;
+}
+
+
+.center-section {
+    margin-top: 130px;
+    text-align: center;
+}
+
+.social-media {
+    float: left;
+    margin-top: 90px;
+}
+
+.social-media ul {
+    list-style: none;
+}
+
+.social-media ul li {
+    margin-bottom: 20px;
+}
+
+.social-media ul a {
+    color: #ffffff;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title h2 {
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 16.5px;
+}
+
+#title-country {
+    font-size: 170px;
+    font-weight: 700;
+}
+
+
+.locations {
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(2px);
+    margin-right: 30px;
+    width: 300px;
+    height: 75px;
+}
+
+.location-icon {
+    margin: 16px;
+}
+
+.location-text h6 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+
+.location-text p {
+    font-size: 12px;
+    font-weight: 200;
+}
+
+#activities, #about-us, #beauties {
+    height: 100vh;
+}
+
+#activities, #about-us, #beauties, #network, #reviews {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title3 {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 11.2px;
+    margin-bottom: 23px;
+}
+
+.title1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 80px;
+}
+
+.photo-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow {
+    margin: 0 65px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.arrow-text {
+    font-size: 8px;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+    margin-top: 5px;
+}
+
+
+.activities-photo {
+    display: flex;
+}
+
+.activity {
+    border-radius: 10px;
+    width: 250px;
+    height: 434px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 25px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.activity h4 {
+    margin-bottom: 7px;
+}
+
+.activity p {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#hiking {
+    background: url("./img/hiking.png");
+    background-size: 250px 434px;
+    margin-right: 20px;
+}
+
+#sailing {
+    background: url("./img/sailing.png");
+    background-size: 250px 434px;
+    margin-right: 20px;
+}
+
+#skiing {
+    background: url("./img/skiing.png");
+    background-size: 250px 434px;
+    margin-right: 20px;
+}
+
+#kayaking {
+    background: url("./img/kayaking.png");
+    background-size: 250px 434px;
+}
+
+.about-us-content {
+    display: flex;
+}
+
+.mountains-photo {
+    width: 650px;
+    object-fit: contain;
+    padding-right: 85px;
+}
+
+.about-us-content .list {
+    width: 500px;
+    list-style-type: none;
+    counter-reset: my-counter;
+}
+
+.about-us-content .list .list-item h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #3D3D3D;
+}
+
+.about-us-content .list .list-item h2::before {
+    content: "0" counter(my-counter);
+    counter-increment: my-counter;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1.3px;
+    color: #9B9B9B;
+    padding-right: 20px;
+}
+
+.about-us-content .list .list-item p {
+    color: #6D6D6D;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 187.5%;
+    padding: 20px 0 20px 48px;
+}
+
+
+.hotels {
+    display: flex;
+    align-items: center;
+}
+
+.hotel {
+    margin-right: 40px;
+}
+
+.bergen {
+    margin-right: 0;
+}
+
+.hotel-photo {
+    width: 350px;
+}
+
+.rating-hotel {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.rating-hotel h2 {
+    padding-right: 40px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.rating-hotel p {
+    color: #959595;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    width: 1130px;
+    margin-top: 40px;
+}
+
+.input-controller label {
+    color: #9B9B9B;
+    font-size: 8px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.input-controller select,
+.button {
+    width: 230px;
+    height: 50px;
+}
+
+.input-controller select {
+    color: #4E4E4E;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    background-color: inherit;
+    border-radius: 5px;
+    border: 1px solid #DBDBDB;
+    display: block;
+}
+
+.button {
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    border-radius: 5px;
+    background: #3D3D3D;
+    margin-top: 19px;
+}
+
+.grey-color {
+    width: 100%;
+    height: 50%;
+    background-color: #F4F4F4;
+    position: absolute;
+    top: 350%;
+    z-index: -1;
+}
+
+#network {
+    height: 50vh;
+}
+
+#network .title1 {
+    margin-bottom: 0;
+}
+
+.partners {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.partners img {
+    width: 150px;
+}
+
+.partners img:nth-child(4) {
+    width: 100px;
+}
+
+
+.reviews {
+    margin: 0 100px 100px;
+    width: 85vw;
+    display: flex;
+    justify-content: space-evenly;
+    background: url("img/reviews_photo.png");
+    border-radius: 10px;
+}
+
+.review {
+    padding: 60px 0;
+    width: 350px;
+}
+
+.quote {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    color: #474747;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+    padding: 40px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.quote:after {
+    content: '';
+    position: absolute;
+    bottom: -25px;
+    left: 8%;
+    border-width: 15px;
+    border-style: solid;
+    border-color: #FFFFFF transparent transparent transparent;
+}
+
+.quote img {
+    margin-bottom: 10px;
+}
+
+.person {
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.person img {
+    margin: 0 10px;
+}
+
+.person-details h3 {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.person-details p {
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.footer {
+    text-align: center;
+    background: #F4F4F4;
+    height: 50vh;
+    padding: 40px 100px;
+}
+
+.main-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer .logo {
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+
+.footer .logo-img {
+    width: 40px;
+    height: 40px;
+    background-color: #000;
+    border-radius: 50%;
+    border-width: 5px 0px 5px 4px;
+    border-style: solid;
+    border-color: #000;
+    margin-bottom: 10px;
+}
+
+.footer nav {
+    margin-right: 0;
+}
+
+.footer nav a{
+    color: #6D6D6D;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #000;
+}
+
+hr {
+    margin: 50px 200px;
+    height: 1px;
+}
+
+footer {
+    background: #F4F4F4;
+}
+
+footer .privacy {
+    float: left;
+    color: #6D6D6D;
+}
+
+footer .footer-social-media {
+    float: right;
+}
+
+footer .footer-social-media ul {
+    list-style: none;
+    display: flex;
+}
+
+footer .footer-social-media ul li {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
